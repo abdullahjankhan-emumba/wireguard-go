@@ -1,4 +1,4 @@
-module github.com/abdullahjan-emumba/wireguard
+module github.com/abdullahjankhan-emumba/wireguard
 
 go 1.20
 
