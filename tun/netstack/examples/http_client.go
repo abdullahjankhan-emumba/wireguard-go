@@ -13,9 +13,9 @@ import (
 	"net/http"
 	"net/netip"
 
-	"github.com/abdullahjankhan-emumba/wireguard/conn"
-	"github.com/abdullahjankhan-emumba/wireguard/device"
-	"github.com/abdullahjankhan-emumba/wireguard/tun/netstack"
+	"github.com/abdullahjankhan-emumba/wireguard-go/conn"
+	"github.com/abdullahjankhan-emumba/wireguard-go/device"
+	"github.com/abdullahjankhan-emumba/wireguard-go/tun/netstack"
 )
 
 func main() {

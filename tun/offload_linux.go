@@ -12,7 +12,7 @@ import (
 	"io"
 	"unsafe"
 
-	"github.com/abdullahjankhan-emumba/wireguard/conn"
+	"github.com/abdullahjankhan-emumba/wireguard-go/conn"
 	"golang.org/x/sys/unix"
 )
 

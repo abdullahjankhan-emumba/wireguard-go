@@ -14,8 +14,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/abdullahjankhan-emumba/wireguard/conn"
-	"github.com/abdullahjankhan-emumba/wireguard/tun"
+	"github.com/abdullahjankhan-emumba/wireguard-go/conn"
+	"github.com/abdullahjankhan-emumba/wireguard-go/tun"
 	"golang.org/x/crypto/chacha20poly1305"
 	"golang.org/x/net/ipv4"
 	"golang.org/x/net/ipv6"

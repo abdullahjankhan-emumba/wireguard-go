@@ -20,8 +20,8 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/abdullahjankhan-emumba/wireguard/conn"
-	"github.com/abdullahjankhan-emumba/wireguard/rwcancel"
+	"github.com/abdullahjankhan-emumba/wireguard-go/conn"
+	"github.com/abdullahjankhan-emumba/wireguard-go/rwcancel"
 )
 
 func (device *Device) startRouteListener(bind conn.Bind) (*rwcancel.RWCancel, error) {

@@ -8,7 +8,7 @@ package device
 import (
 	"fmt"
 
-	"github.com/abdullahjankhan-emumba/wireguard/tun"
+	"github.com/abdullahjankhan-emumba/wireguard-go/tun"
 )
 
 const DefaultMTU = 1420

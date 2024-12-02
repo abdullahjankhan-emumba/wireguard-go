@@ -11,10 +11,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/abdullahjankhan-emumba/wireguard/conn"
-	"github.com/abdullahjankhan-emumba/wireguard/ratelimiter"
-	"github.com/abdullahjankhan-emumba/wireguard/rwcancel"
-	"github.com/abdullahjankhan-emumba/wireguard/tun"
+	"github.com/abdullahjankhan-emumba/wireguard-go/conn"
+	"github.com/abdullahjankhan-emumba/wireguard-go/ratelimiter"
+	"github.com/abdullahjankhan-emumba/wireguard-go/rwcancel"
+	"github.com/abdullahjankhan-emumba/wireguard-go/tun"
 )
 
 type Device struct {
